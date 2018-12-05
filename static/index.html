@@ -3,16 +3,11 @@
    <meta charset="utf-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1">
+   <meta property="og:image" content="og.png">
    <title>Subtle Asian Dating Generator | Look No Further</title>
    <link rel="stylesheet" href="style.css">
    <link rel="icon" type="image/png" href="favicon.png">
-   <script>
-    var generate = async () => {
-        let s = await fetch('/generate')
-        let t = await s.text()
-        document.getElementById('result').innerText = t
-    }
-</script>
+   <script>var generate = async () => {let s = await fetch('/generate')let t = await s.text()document.getElementById('result').innerText = t}</script>
 </head>
 <body>
     <div class="centered">
