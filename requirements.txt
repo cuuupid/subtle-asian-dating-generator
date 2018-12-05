@@ -1,0 +1,4 @@
+markovify
+tqdm
+sanic
+sanic-cors

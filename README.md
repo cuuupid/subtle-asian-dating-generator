@@ -27,6 +27,7 @@ print(''.join([(letter if r(1,5)>2 else letter.upper()) for letter in list(input
 - Keras, numPy, TQDM, markovify (use Anaconda Python, and `pip install tqdm markovify` for the others)
 - Jupyter (cums with Anaconda Python)
 - decent boba tea
+- for the website/server you'll also need Sanic and Sanic CORS (`pip install sanic sanic-cors`)
 
 ## Scraping the data
 
