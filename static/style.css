@@ -2,11 +2,13 @@
 body {
   font-family: 'Nunito', sans-serif;
   font-size: 16px;
+  min-height: 100%;
 }
 html,
 body {
-  height: 100%;
+  min-height: 100%;
   width: 100%;
+    overflow: hidden;
 }
 .centered{
     margin: 0;
@@ -16,12 +18,22 @@ body {
     text-align: center;
     transform: translate(-50%, -50%);
 }
+.scroll{
+    margin-top: 3px !important;
+    font-size: 13px !important;
+    color: #b5b5b5 !important;
+}
 #result{
     color: #4b74ff;
     margin-top: 30px;
     background: #f5f5f5;
     padding: 10px;
     border-radius: 4px;
+    height: 100px;
+    overflow-y: scroll;
+    -webkit-box-shadow: inset 0px -1px 44px -9px rgba(217,217,217,1);
+-moz-box-shadow: inset 0px -1px 44px -9px rgba(217,217,217,1);
+box-shadow: inset 0px -1px 44px -9px rgba(217,217,217,1);
 }
 a{
     margin: 0;
