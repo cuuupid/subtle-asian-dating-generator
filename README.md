@@ -6,6 +6,10 @@ Objective: scrape subtle asian dating and make a bot that can generate posts. :f
 
 ------------------------------------------------
 
+![Screenshot](screenshot.png)
+
+------------------------------------------------
+
 _ArE yOu aN ABg lOOkiNg fOr a 7'2" BoBA raVe bOdYbUilDeR tHaT dOEs iNVesTmENt bAnKIng dURInG tHE daY?????_
 
 _WaNt tO make aN enGagiNg pOsT????_
