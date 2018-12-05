@@ -43,6 +43,10 @@ Put in the commands in `scrape.js`, it takes a bit to load (it's going to click 
 
 Take your JSON file and **put it in** this folder. I have a scrape in the git history but twas deleted from master because of legal reasons.
 
+## Running the Web Server
+
+It's a PITA to run on Heroku but Sanic is great for quickly developing this sort of thing so you'll need to grab Sanic and Sanic CORS `pip install sanic sanic-cors` and you'll be set. Just `python index.py` and your app is live at [`http://localhost:6969/index.html`](http://localhost:6969/index.html)!
+
 ## Markov Chain
 
 We use `markovify` for the Markov Chain. Whip up your Jupyter Notebook using `jupyter notebook` and open up `SAD Markov.ipynb`. Run all the cells. This part might take a couple minutes if you're using a potato, so this is where the boba comes in handy.
