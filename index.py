@@ -9,7 +9,7 @@ app = Sanic(__name__)
 CORS(app)
 app.static('/', './static')
 
-posts = json.load(open('posts.json'))
+posts = json.load(open('./posts.json'))
 text = '\n'.join(posts)
 sentences = re.split(r'(?<!\w\.\w.)(?<![A-Z][a-z]\.)(?<=\.|\?|!|\n)\s', text)
 sentences = [sentence.strip() for sentence in sentences]
